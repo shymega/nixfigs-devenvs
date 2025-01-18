@@ -78,6 +78,6 @@
         import inputs.nixfigs-helpers.helpers.devShells {inherit pkgs self system;}
     );
 
-    templates = self.templates-srcs.all-templates;
+    templates = templates-srcs.all-templates;
   };
 }
