@@ -49,6 +49,13 @@
     );
 
     forEachSystem = inputs.nixpkgs.lib.genAttrs systems;
+
+    templates-srcs = rec {
+      shymega = {
+        default = inputs.the-nix-way.templates.empty;
+      };
+      all-templates = shymega // inputs.the-nix-way.templates;
+    };
   in {
     # for `nix fmt`
     formatter = treeFmtEachSystem (pkgs: treeFmtEval.${pkgs.system}.config.build.wrapper);
@@ -71,12 +78,6 @@
         import inputs.nixfigs-helpers.helpers.devShells {inherit pkgs self system;}
     );
 
-    templates-srcs = rec {
-      shymega = {
-        default = inputs.the-nix-way.templates.empty;
-      };
-      all-templates = shymega // inputs.the-nix-way.templates;
-    };
-    templates = self.templates-srcs.all-templates;
+    templates = templates-srcs.all-templates;
   };
 }
