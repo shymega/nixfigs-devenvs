@@ -2,7 +2,7 @@
   description = "Repository with different development shells for @shymega";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-25.05";
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-25.11";
     nixfigs-helpers.url = "github:shymega/nixfigs-helpers";
     the-nix-way.url = "github:the-nix-way/dev-templates";
   };
