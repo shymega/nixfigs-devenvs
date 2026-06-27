@@ -2,7 +2,7 @@
   description = "Repository with different development shells for @shymega";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-26.05";
+    nixpkgs.url = "https://flakehub.com/f/NixOS/nixpkgs/*";
     nixfigs-helpers = {
       url = "github:shymega/nixfigs-helpers";
       inputs.nixpkgs.follows = "nixpkgs";
