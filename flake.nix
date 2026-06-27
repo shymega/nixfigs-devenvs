@@ -3,8 +3,14 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-26.05";
-    nixfigs-helpers.url = "github:shymega/nixfigs-helpers";
-    the-nix-way.url = "github:the-nix-way/dev-templates";
+    nixfigs-helpers = {
+      url = "github:shymega/nixfigs-helpers";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+    the-nix-way = {
+      url = "github:the-nix-way/dev-templates";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = {self, ...} @ inputs: let
