@@ -91,11 +91,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1783008725,
-        "narHash": "sha256-jGiy6+sxjNWXSjp25uoJuNfyH9zBK1PEDY0lVoL4ibQ=",
+        "lastModified": 1784288435,
+        "narHash": "sha256-ReRHaLgr/uVqdD8afFSn+myXIfpHeOhP0yYe0TJqAA8=",
         "owner": "cachix",
         "repo": "git-hooks.nix",
-        "rev": "bca82caa46d5ec0f5d422c61fb1e30bc51313cbe",
+        "rev": "43b3c1ab9d40fb1dbb008f451988a91e375825e9",
         "type": "github"
       },
       "original": {
@@ -138,11 +138,11 @@
         "treefmt-nix": "treefmt-nix"
       },
       "locked": {
-        "lastModified": 1783360676,
-        "narHash": "sha256-a9KhNyTc4tJ8xxIbwYYiuxail8GVntMA1eeuuZMB8SI=",
+        "lastModified": 1786219113,
+        "narHash": "sha256-4eW/3FXy9iMyiul8rPp95AG/T2JCD/g5lV5lMzA7gN4=",
         "owner": "shymega",
         "repo": "nixfigs-helpers",
-        "rev": "1538a2a7837f9fe4a19a2dda8902f8a381022a0b",
+        "rev": "05e31d05fa4daaf329d7b8a931318a09564dedd3",
         "type": "github"
       },
       "original": {
@@ -153,12 +153,12 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1783148766,
-        "narHash": "sha256-uslt2pqShTIXDdAHRHv2QkYLsVdY8Oqwz0EA48/RSM8=",
-        "rev": "a50de1b7d8a586adc18d2395c19de7d6058e6030",
-        "revCount": 1008484,
+        "lastModified": 1786089803,
+        "narHash": "sha256-ZuvZfVW2tB5tXYEcpcfhVXB3N4OhdZLOqOviy4OD4b4=",
+        "rev": "ee48b147c18c7de1e6ec97dc74792be42724bed1",
+        "revCount": 1011492,
         "type": "tarball",
-        "url": "https://api.flakehub.com/f/pinned/NixOS/nixpkgs/0.2605.1008484%2Brev-a50de1b7d8a586adc18d2395c19de7d6058e6030/019f2e42-a67d-7ba0-bc6c-598449e6ade9/source.tar.gz"
+        "url": "https://api.flakehub.com/f/pinned/NixOS/nixpkgs/0.2605.1011492%2Brev-ee48b147c18c7de1e6ec97dc74792be42724bed1/019fe27a-4b56-76e0-9178-a059ce32ffab/source.tar.gz"
       },
       "original": {
         "type": "tarball",
@@ -200,11 +200,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1780220602,
-        "narHash": "sha256-eynAfOmbmxJnkp7YewvCEbShNnnYJ9gLLqkzsYtBPeM=",
+        "lastModified": 1785945821,
+        "narHash": "sha256-NLSyTCW4K4ofhNBllt3omPasm6QpralXH1DBZOc91Dw=",
         "owner": "numtide",
         "repo": "treefmt-nix",
-        "rev": "db947814a175b7ca6ded66e21383d938df01c227",
+        "rev": "ae7910970dddc408fe6ab1c8e4b277bb21d72dc0",
         "type": "github"
       },
       "original": {
